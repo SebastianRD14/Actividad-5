@@ -8,4 +8,12 @@
     <string name="text4">Ingresa tu teléfono</string>
     <string name="text5">Ingresa tu sitio web</string>
     <string name="boton2">Validar Datos</string>
+    <string name="botonsimple">Click aquí</string>
+    <string name="checkopt">Aceptar términos</string>
+    <string name="radioboton1">Opción 1</string>
+    <string name="radioboton2">Opción 2</string>
+    <string name="botonToggleON">Encendido</string>
+    <string name="botonToggleOFF">Apagado</string>
+    <string name="botonToggle">Encendido / Apagado</string>
+    <string name="switch1">Activar notificaciones</string>
 </resources>
