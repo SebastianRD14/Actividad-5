@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Actividad 5</string>
+    <string name="text1">Name</string>
+    <string name="text2">Escribe tu nombre</string>
+    <string name="boton1">Cambiar</string>
+    <string name="vertext">Hola</string>
+    <string name="text3">Escribe tu correo</string>
+    <string name="text4">Ingresa tu teléfono</string>
+    <string name="text5">Ingresa tu sitio web</string>
+    <string name="boton2">Validar Datos</string>
 </resources>
