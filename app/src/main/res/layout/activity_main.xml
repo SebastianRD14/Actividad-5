@@ -9,8 +9,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="409dp"
-        android:layout_height="366dp"
+        android:layout_width="407dp"
+        android:layout_height="160dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -54,16 +54,19 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="402dp"
-        android:layout_height="381dp"
+        android:id="@+id/linearLayout2"
+        android:layout_width="403dp"
+        android:layout_height="200dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0">
 
         <EditText
             android:id="@+id/txtCorreo"
@@ -97,6 +100,69 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/boton2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="384dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btnSimple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botonsimple" />
+
+        <CheckBox
+            android:id="@+id/chkOpcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkopt" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbOpcion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioboton1" />
+
+            <RadioButton
+                android:id="@+id/rbOpcion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioboton2" />
+        </RadioGroup>
+
+        <ToggleButton
+            android:id="@+id/toggleBoton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botonToggle" />
+
+        <Switch
+            android:id="@+id/switchBoton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/switch1" />
+
+        <ImageButton
+            android:id="@+id/imgBoton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_image_mondongo21" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
