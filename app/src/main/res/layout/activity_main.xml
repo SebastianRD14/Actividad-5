@@ -10,7 +10,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="409dp"
-        android:layout_height="732dp"
+        android:layout_height="366dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -29,27 +29,74 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:text="@string/text1" />
 
         <EditText
             android:id="@+id/txt2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Escribe tu nombre"
-            android:inputType="text" />
+            android:hint="@string/text2"
+            android:inputType="text"
+            android:textColorHint="#660606" />
 
         <Button
             android:id="@+id/boton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cambiar" />
+            android:text="@string/boton1" />
 
         <TextView
             android:id="@+id/VerTexto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hola" />
+            android:text="@string/vertext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="381dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/text3"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#64C106" />
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/text4"
+            android:inputType="phone"
+            android:textColorHint="#08C0CA" />
+
+        <EditText
+            android:id="@+id/txtWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/text5"
+            android:inputType="textUri"
+            android:textColorHint="#EF0BDB" />
+
+        <Button
+            android:id="@+id/btnValidar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton2" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
